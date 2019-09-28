@@ -1,0 +1,365 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\MCT\Spring 2018\Design of MCT (2)\Codes\Tiva C\DC motor trial_keil.uvproj
+Project File Date:  05/12/2018
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_TM4C123.s...
+compiling main.c...
+C:/Keil/labware/inc/tm4c123gh6pm.h(1954): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1953)
+  #define EEP EEBLOCK_R        (*((volatile uint32_t *)0x400AF004))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1955): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1954)
+  #define EEP EEOFFSET_R       (*((volatile uint32_t *)0x400AF008))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1956): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1955)
+  #define EEP EERDWR_R         (*((volatile uint32_t *)0x400AF010))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1957): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1956)
+  #define EEP EERDWRINC_R      (*((volatile uint32_t *)0x400AF014))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1958): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1957)
+  #define EEP EEDONE_R         (*((volatile uint32_t *)0x400AF018))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1959): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1958)
+  #define EEP EESUPP_R         (*((volatile uint32_t *)0x400AF01C))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1960): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1959)
+  #define EEP EEUNLOCK_R       (*((volatile uint32_t *)0x400AF020))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1961): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1960)
+  #define EEP EEPROT_R         (*((volatile uint32_t *)0x400AF030))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1962): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1961)
+  #define EEP EEPASS0_R        (*((volatile uint32_t *)0x400AF034))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1963): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1962)
+  #define EEP EEPASS1_R        (*((volatile uint32_t *)0x400AF038))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1964): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1963)
+  #define EEP EEPASS2_R        (*((volatile uint32_t *)0x400AF03C))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1965): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1964)
+  #define EEP EEINT_R          (*((volatile uint32_t *)0x400AF040))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1966): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1965)
+  #define EEP EEHIDE_R         (*((volatile uint32_t *)0x400AF050))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1967): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1966)
+  #define EEP EEDBGME_R        (*((volatile uint32_t *)0x400AF080))
+C:/Keil/labware/inc/tm4c123gh6pm.h(1968): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1967)
+  #define EEP PP_R             (*((volatile uint32_t *)0x400AFFC0))
+C:/Keil/labware/inc/tm4c123gh6pm.h(8752): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 1968)
+  #define EEP EESIZE_BLKCNT_M  0x07FF0000  // Number of 16-Word Blocks
+C:/Keil/labware/inc/tm4c123gh6pm.h(8753): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8752)
+  #define EEP EESIZE_WORDCNT_M 0x0000FFFF  // Number of 32-Bit Words
+C:/Keil/labware/inc/tm4c123gh6pm.h(8754): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8753)
+  #define EEP EESIZE_BLKCNT_S  16
+C:/Keil/labware/inc/tm4c123gh6pm.h(8755): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8754)
+  #define EEP EESIZE_WORDCNT_S 0
+C:/Keil/labware/inc/tm4c123gh6pm.h(8762): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8755)
+  #define EEP EEBLOCK_BLOCK_M  0x0000FFFF  // Current Block
+C:/Keil/labware/inc/tm4c123gh6pm.h(8763): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8762)
+  #define EEP EEBLOCK_BLOCK_S  0
+C:/Keil/labware/inc/tm4c123gh6pm.h(8771): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8763)
+  #define EEP EEOFFSET_OFFSET_M                                              \
+C:/Keil/labware/inc/tm4c123gh6pm.h(8773): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8771)
+  #define EEP EEOFFSET_OFFSET_S                                              \
+C:/Keil/labware/inc/tm4c123gh6pm.h(8781): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8773)
+  #define EEP EERDWR_VALUE_M   0xFFFFFFFF  // EEPROM Read or Write Data
+C:/Keil/labware/inc/tm4c123gh6pm.h(8782): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8781)
+  #define EEP EERDWR_VALUE_S   0
+C:/Keil/labware/inc/tm4c123gh6pm.h(8790): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8782)
+  #define EEP EERDWRINC_VALUE_M                                              \
+C:/Keil/labware/inc/tm4c123gh6pm.h(8793): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8790)
+  #define EEP EERDWRINC_VALUE_S                                              \
+C:/Keil/labware/inc/tm4c123gh6pm.h(8801): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8793)
+  #define EEP EEDONE_WRBUSY    0x00000020  // Write Busy
+C:/Keil/labware/inc/tm4c123gh6pm.h(8802): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8801)
+  #define EEP EEDONE_NOPERM    0x00000010  // Write Without Permission
+C:/Keil/labware/inc/tm4c123gh6pm.h(8803): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8802)
+  #define EEP EEDONE_WKCOPY    0x00000008  // Working on a Copy
+C:/Keil/labware/inc/tm4c123gh6pm.h(8804): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8803)
+  #define EEP EEDONE_WKERASE   0x00000004  // Working on an Erase
+C:/Keil/labware/inc/tm4c123gh6pm.h(8805): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8804)
+  #define EEP EEDONE_WORKING   0x00000001  // EEPROM Working
+C:/Keil/labware/inc/tm4c123gh6pm.h(8812): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8805)
+  #define EEP EESUPP_PRETRY    0x00000008  // Programming Must Be Retried
+C:/Keil/labware/inc/tm4c123gh6pm.h(8813): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8812)
+  #define EEP EESUPP_ERETRY    0x00000004  // Erase Must Be Retried
+C:/Keil/labware/inc/tm4c123gh6pm.h(8821): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8813)
+  #define EEP EEUNLOCK_UNLOCK_M                                              \
+C:/Keil/labware/inc/tm4c123gh6pm.h(8829): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8821)
+  #define EEP EEPROT_ACC       0x00000008  // Access Control
+C:/Keil/labware/inc/tm4c123gh6pm.h(8830): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8829)
+  #define EEP EEPROT_PROT_M    0x00000007  // Protection Control
+C:/Keil/labware/inc/tm4c123gh6pm.h(8831): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8830)
+  #define EEP EEPROT_PROT_RWNPW                                              \
+C:/Keil/labware/inc/tm4c123gh6pm.h(8836): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8831)
+  #define EEP EEPROT_PROT_RWPW 0x00000001  // If there is a password, the
+C:/Keil/labware/inc/tm4c123gh6pm.h(8839): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8836)
+  #define EEP EEPROT_PROT_RONPW                                              \
+C:/Keil/labware/inc/tm4c123gh6pm.h(8848): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8839)
+  #define EEP EEPASS0_PASS_M   0xFFFFFFFF  // Password
+C:/Keil/labware/inc/tm4c123gh6pm.h(8849): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8848)
+  #define EEP EEPASS0_PASS_S   0
+C:/Keil/labware/inc/tm4c123gh6pm.h(8856): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8849)
+  #define EEP EEPASS1_PASS_M   0xFFFFFFFF  // Password
+C:/Keil/labware/inc/tm4c123gh6pm.h(8857): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8856)
+  #define EEP EEPASS1_PASS_S   0
+C:/Keil/labware/inc/tm4c123gh6pm.h(8864): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8857)
+  #define EEP EEPASS2_PASS_M   0xFFFFFFFF  // Password
+C:/Keil/labware/inc/tm4c123gh6pm.h(8865): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8864)
+  #define EEP EEPASS2_PASS_S   0
+C:/Keil/labware/inc/tm4c123gh6pm.h(8872): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8865)
+  #define EEP EEINT_INT        0x00000001  // Interrupt Enable
+C:/Keil/labware/inc/tm4c123gh6pm.h(8879): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8872)
+  #define EEP EEHIDE_HN_M      0xFFFFFFFE  // Hide Block
+C:/Keil/labware/inc/tm4c123gh6pm.h(8886): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8879)
+  #define EEP EEDBGME_KEY_M    0xFFFF0000  // Erase Key
+C:/Keil/labware/inc/tm4c123gh6pm.h(8887): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8886)
+  #define EEP EEDBGME_ME       0x00000001  // Mass Erase
+C:/Keil/labware/inc/tm4c123gh6pm.h(8888): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8887)
+  #define EEP EEDBGME_KEY_S    16
+C:/Keil/labware/inc/tm4c123gh6pm.h(8895): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8888)
+  #define EEP PP_SIZE_M        0x0000001F  // EEPROM Size
+C:/Keil/labware/inc/tm4c123gh6pm.h(8896): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8895)
+  #define EEP PP_SIZE_S        0
+C:/Keil/labware/inc/tm4c123gh6pm.h(10340): warning:  #47-D: incompatible redefinition of macro "SYSCTL_PPEEP" (declared at line 2093)
+  #define SYSCTL_PPEEP P0      0x00000001  // EEPROM Module Present
+C:/Keil/labware/inc/tm4c123gh6pm.h(10501): warning:  #47-D: incompatible redefinition of macro "SYSCTL_SREEP" (declared at line 2109)
+  #define SYSCTL_SREEP R0      0x00000001  // EEPROM Module Software Reset
+C:/Keil/labware/inc/tm4c123gh6pm.h(10700): warning:  #47-D: incompatible redefinition of macro "SYSCTL_RCGCEEP" (declared at line 2125)
+  #define SYSCTL_RCGCEEP R0    0x00000001  // EEPROM Module Run Mode Clock
+C:/Keil/labware/inc/tm4c123gh6pm.h(10912): warning:  #47-D: incompatible redefinition of macro "SYSCTL_SCGCEEP" (declared at line 2141)
+  #define SYSCTL_SCGCEEP S0    0x00000001  // EEPROM Module Sleep Mode Clock
+C:/Keil/labware/inc/tm4c123gh6pm.h(11125): warning:  #47-D: incompatible redefinition of macro "SYSCTL_DCGCEEP" (declared at line 2157)
+  #define SYSCTL_DCGCEEP D0    0x00000001  // EEPROM Module Deep-Sleep Mode
+C:/Keil/labware/inc/tm4c123gh6pm.h(11295): warning:  #47-D: incompatible redefinition of macro "SYSCTL_PREEP" (declared at line 2173)
+  #define SYSCTL_PREEP R0      0x00000001  // EEPROM Module Peripheral Ready
+C:/Keil/labware/inc/hw_memmap.h(121): warning:  #47-D: incompatible redefinition of macro "EEP" (declared at line 8896 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define EEP BASE             0x400AF000  // EEPROM memory
+C:/Keil/labware/inc/hw_ints.h(352): warning:  #47-D: incompatible redefinition of macro "INT_ADC0SS0" (declared at line 62 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_ADC0SS0             INT_CONCAT(INT_ADC0SS0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(353): warning:  #47-D: incompatible redefinition of macro "INT_ADC0SS1" (declared at line 63 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_ADC0SS1             INT_CONCAT(INT_ADC0SS1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(354): warning:  #47-D: incompatible redefinition of macro "INT_ADC0SS2" (declared at line 64 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_ADC0SS2             INT_CONCAT(INT_ADC0SS2_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(355): warning:  #47-D: incompatible redefinition of macro "INT_ADC0SS3" (declared at line 65 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_ADC0SS3             INT_CONCAT(INT_ADC0SS3_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(356): warning:  #47-D: incompatible redefinition of macro "INT_ADC1SS0" (declared at line 92 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_ADC1SS0             INT_CONCAT(INT_ADC1SS0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(357): warning:  #47-D: incompatible redefinition of macro "INT_ADC1SS1" (declared at line 93 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_ADC1SS1             INT_CONCAT(INT_ADC1SS1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(358): warning:  #47-D: incompatible redefinition of macro "INT_ADC1SS2" (declared at line 94 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_ADC1SS2             INT_CONCAT(INT_ADC1SS2_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(359): warning:  #47-D: incompatible redefinition of macro "INT_ADC1SS3" (declared at line 95 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_ADC1SS3             INT_CONCAT(INT_ADC1SS3_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(361): warning:  #47-D: incompatible redefinition of macro "INT_CAN0" (declared at line 85 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_CAN0                INT_CONCAT(INT_CAN0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(362): warning:  #47-D: incompatible redefinition of macro "INT_CAN1" (declared at line 86 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_CAN1                INT_CONCAT(INT_CAN1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(363): warning:  #47-D: incompatible redefinition of macro "INT_COMP0" (declared at line 73 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_COMP0               INT_CONCAT(INT_COMP0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(364): warning:  #47-D: incompatible redefinition of macro "INT_COMP1" (declared at line 74 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_COMP1               INT_CONCAT(INT_COMP1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(369): warning:  #47-D: incompatible redefinition of macro "INT_FLASH" (declared at line 76 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_FLASH               INT_CONCAT(INT_FLASH_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(370): warning:  #47-D: incompatible redefinition of macro "INT_GPIOA" (declared at line 48 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_GPIOA               INT_CONCAT(INT_GPIOA_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(371): warning:  #47-D: incompatible redefinition of macro "INT_GPIOB" (declared at line 49 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_GPIOB               INT_CONCAT(INT_GPIOB_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(372): warning:  #47-D: incompatible redefinition of macro "INT_GPIOC" (declared at line 50 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_GPIOC               INT_CONCAT(INT_GPIOC_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(373): warning:  #47-D: incompatible redefinition of macro "INT_GPIOD" (declared at line 51 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_GPIOD               INT_CONCAT(INT_GPIOD_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(374): warning:  #47-D: incompatible redefinition of macro "INT_GPIOE" (declared at line 52 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_GPIOE               INT_CONCAT(INT_GPIOE_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(375): warning:  #47-D: incompatible redefinition of macro "INT_GPIOF" (declared at line 78 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_GPIOF               INT_CONCAT(INT_GPIOF_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(402): warning:  #47-D: incompatible redefinition of macro "INT_HIBERNATE" (declared at line 87 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_HIBERNATE           INT_CONCAT(INT_HIBERNATE_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(403): warning:  #47-D: incompatible redefinition of macro "INT_I2C0" (declared at line 56 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_I2C0                INT_CONCAT(INT_I2C0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(404): warning:  #47-D: incompatible redefinition of macro "INT_I2C1" (declared at line 83 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_I2C1                INT_CONCAT(INT_I2C1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(405): warning:  #47-D: incompatible redefinition of macro "INT_I2C2" (declared at line 103 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_I2C2                INT_CONCAT(INT_I2C2_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(406): warning:  #47-D: incompatible redefinition of macro "INT_I2C3" (declared at line 104 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_I2C3                INT_CONCAT(INT_I2C3_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(415): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_0" (declared at line 58 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM0_0              INT_CONCAT(INT_PWM0_0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(416): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_1" (declared at line 59 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM0_1              INT_CONCAT(INT_PWM0_1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(417): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_2" (declared at line 60 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM0_2              INT_CONCAT(INT_PWM0_2_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(418): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_3" (declared at line 89 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM0_3              INT_CONCAT(INT_PWM0_3_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(419): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_FAULT" (declared at line 57 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM0_FAULT          INT_CONCAT(INT_PWM0_FAULT_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(420): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_0" (declared at line 122 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM1_0              INT_CONCAT(INT_PWM1_0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(421): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_1" (declared at line 123 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM1_1              INT_CONCAT(INT_PWM1_1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(422): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_2" (declared at line 124 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM1_2              INT_CONCAT(INT_PWM1_2_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(423): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_3" (declared at line 125 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM1_3              INT_CONCAT(INT_PWM1_3_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(424): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_FAULT" (declared at line 126 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_PWM1_FAULT          INT_CONCAT(INT_PWM1_FAULT_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(425): warning:  #47-D: incompatible redefinition of macro "INT_QEI0" (declared at line 61 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_QEI0                INT_CONCAT(INT_QEI0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(426): warning:  #47-D: incompatible redefinition of macro "INT_QEI1" (declared at line 84 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_QEI1                INT_CONCAT(INT_QEI1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(428): warning:  #47-D: incompatible redefinition of macro "INT_SSI0" (declared at line 55 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_SSI0                INT_CONCAT(INT_SSI0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(429): warning:  #47-D: incompatible redefinition of macro "INT_SSI1" (declared at line 80 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_SSI1                INT_CONCAT(INT_SSI1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(430): warning:  #47-D: incompatible redefinition of macro "INT_SSI2" (declared at line 96 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_SSI2                INT_CONCAT(INT_SSI2_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(431): warning:  #47-D: incompatible redefinition of macro "INT_SSI3" (declared at line 97 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_SSI3                INT_CONCAT(INT_SSI3_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(432): warning:  #47-D: incompatible redefinition of macro "INT_SYSCTL" (declared at line 75 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_SYSCTL              INT_CONCAT(INT_SYSCTL_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(433): warning:  #47-D: incompatible redefinition of macro "INT_SYSEXC" (declared at line 121 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_SYSEXC              INT_CONCAT(INT_SYSEXC_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(435): warning:  #47-D: incompatible redefinition of macro "INT_TIMER0A" (declared at line 67 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER0A             INT_CONCAT(INT_TIMER0A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(436): warning:  #47-D: incompatible redefinition of macro "INT_TIMER0B" (declared at line 68 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER0B             INT_CONCAT(INT_TIMER0B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(437): warning:  #47-D: incompatible redefinition of macro "INT_TIMER1A" (declared at line 69 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER1A             INT_CONCAT(INT_TIMER1A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(438): warning:  #47-D: incompatible redefinition of macro "INT_TIMER1B" (declared at line 70 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER1B             INT_CONCAT(INT_TIMER1B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(439): warning:  #47-D: incompatible redefinition of macro "INT_TIMER2A" (declared at line 71 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER2A             INT_CONCAT(INT_TIMER2A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(440): warning:  #47-D: incompatible redefinition of macro "INT_TIMER2B" (declared at line 72 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER2B             INT_CONCAT(INT_TIMER2B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(441): warning:  #47-D: incompatible redefinition of macro "INT_TIMER3A" (declared at line 81 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER3A             INT_CONCAT(INT_TIMER3A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(442): warning:  #47-D: incompatible redefinition of macro "INT_TIMER3B" (declared at line 82 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER3B             INT_CONCAT(INT_TIMER3B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(443): warning:  #47-D: incompatible redefinition of macro "INT_TIMER4A" (declared at line 105 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER4A             INT_CONCAT(INT_TIMER4A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(444): warning:  #47-D: incompatible redefinition of macro "INT_TIMER4B" (declared at line 106 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER4B             INT_CONCAT(INT_TIMER4B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(445): warning:  #47-D: incompatible redefinition of macro "INT_TIMER5A" (declared at line 107 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER5A             INT_CONCAT(INT_TIMER5A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(446): warning:  #47-D: incompatible redefinition of macro "INT_TIMER5B" (declared at line 108 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_TIMER5B             INT_CONCAT(INT_TIMER5B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(451): warning:  #47-D: incompatible redefinition of macro "INT_UART0" (declared at line 53 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UART0               INT_CONCAT(INT_UART0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(452): warning:  #47-D: incompatible redefinition of macro "INT_UART1" (declared at line 54 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UART1               INT_CONCAT(INT_UART1_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(453): warning:  #47-D: incompatible redefinition of macro "INT_UART2" (declared at line 79 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UART2               INT_CONCAT(INT_UART2_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(454): warning:  #47-D: incompatible redefinition of macro "INT_UART3" (declared at line 98 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UART3               INT_CONCAT(INT_UART3_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(455): warning:  #47-D: incompatible redefinition of macro "INT_UART4" (declared at line 99 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UART4               INT_CONCAT(INT_UART4_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(456): warning:  #47-D: incompatible redefinition of macro "INT_UART5" (declared at line 100 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UART5               INT_CONCAT(INT_UART5_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(457): warning:  #47-D: incompatible redefinition of macro "INT_UART6" (declared at line 101 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UART6               INT_CONCAT(INT_UART6_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(458): warning:  #47-D: incompatible redefinition of macro "INT_UART7" (declared at line 102 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UART7               INT_CONCAT(INT_UART7_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(459): warning:  #47-D: incompatible redefinition of macro "INT_UDMA" (declared at line 90 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UDMA                INT_CONCAT(INT_UDMA_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(460): warning:  #47-D: incompatible redefinition of macro "INT_UDMAERR" (declared at line 91 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_UDMAERR             INT_CONCAT(INT_UDMAERR_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(461): warning:  #47-D: incompatible redefinition of macro "INT_USB0" (declared at line 88 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_USB0                INT_CONCAT(INT_USB0_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(462): warning:  #47-D: incompatible redefinition of macro "INT_WATCHDOG" (declared at line 66 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WATCHDOG            INT_CONCAT(INT_WATCHDOG_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(463): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER0A" (declared at line 109 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER0A            INT_CONCAT(INT_WTIMER0A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(464): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER0B" (declared at line 110 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER0B            INT_CONCAT(INT_WTIMER0B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(465): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER1A" (declared at line 111 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER1A            INT_CONCAT(INT_WTIMER1A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(466): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER1B" (declared at line 112 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER1B            INT_CONCAT(INT_WTIMER1B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(467): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER2A" (declared at line 113 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER2A            INT_CONCAT(INT_WTIMER2A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(468): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER2B" (declared at line 114 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER2B            INT_CONCAT(INT_WTIMER2B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(469): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER3A" (declared at line 115 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER3A            INT_CONCAT(INT_WTIMER3A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(470): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER3B" (declared at line 116 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER3B            INT_CONCAT(INT_WTIMER3B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(471): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER4A" (declared at line 117 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER4A            INT_CONCAT(INT_WTIMER4A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(472): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER4B" (declared at line 118 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER4B            INT_CONCAT(INT_WTIMER4B_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(473): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER5A" (declared at line 119 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER5A            INT_CONCAT(INT_WTIMER5A_, INT_DEVICE_CLASS)
+C:/Keil/labware/inc/hw_ints.h(474): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER5B" (declared at line 120 of "C:/Keil/labware/inc/tm4c123gh6pm.h")
+  #define INT_WTIMER5B            INT_CONCAT(INT_WTIMER5B_, INT_DEVICE_CLASS)
+C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/rom.h(40): warning:  #14-D: extra text after expected end of preprocessing directive
+  #ifndef __DRIVERLIB_ H__
+main.c(281): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if (dutyCycle < 0 ){
+main.c(300): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if (dutyCycle < 0 ){
+main.c(318): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if (dutyCycle < 0 ){
+main.c(336): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if (dutyCycle < 0 ){
+main.c(442): warning:  #223-D: function "SysTickPeriodSet" declared implicitly
+        SysTickPeriodSet(SysCtlClockGet()/1000);
+main.c(444): warning:  #223-D: function "SysTickIntEnable" declared implicitly
+        SysTickIntEnable();
+main.c(445): warning:  #223-D: function "SysTickEnable" declared implicitly
+        SysTickEnable();
+main.c(476): warning:  #69-D: integer conversion resulted in truncation
+                PWMDCMotorLeftFront(100000);
+main.c(477): warning:  #69-D: integer conversion resulted in truncation
+                PWMDCMotorLeftBack(100000);
+main.c(481): warning:  #69-D: integer conversion resulted in truncation
+                PWMDCMotorRightFront(100000);
+main.c(482): warning:  #69-D: integer conversion resulted in truncation
+                PWMDCMotorLeftBack(100000);
+main.c(523): warning:  #111-D: statement is unreachable
+    return 0;
+main.c: 151 warnings, 0 errors
+compiling gpio.c...
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\gpio.c(1953): warning:  #223-D: function "UARTprintf" declared implicitly
+        UARTprintf("pe");
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\gpio.c: 1 warning, 0 errors
+compiling pwm.c...
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c(1109): warning:  #223-D: function "IntRegister" declared implicitly
+      IntRegister(ui32Int, pfnIntHandler);
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c(1114): warning:  #223-D: function "IntEnable" declared implicitly
+      IntEnable(ui32Int);
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c(1158): warning:  #223-D: function "IntDisable" declared implicitly
+      IntDisable(ui32Int);
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c(1163): warning:  #223-D: function "IntUnregister" declared implicitly
+      IntUnregister(ui32Int);
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c(1240): warning:  #223-D: function "IntRegister" declared implicitly
+      IntRegister(ui32Int, pfnIntHandler);
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c(1245): warning:  #223-D: function "IntEnable" declared implicitly
+      IntEnable(ui32Int);
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c(1285): warning:  #223-D: function "IntDisable" declared implicitly
+      IntDisable(ui32Int);
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c(1290): warning:  #223-D: function "IntUnregister" declared implicitly
+      IntUnregister(ui32Int);
+C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c: 8 warnings, 0 errors
+compiling sysctl.c...
+compiling uart.c...
+compiling interrupt.c...
+compiling uartstdio.c...
+C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/rom.h(40): warning:  #14-D: extra text after expected end of preprocessing directive
+  #ifndef __DRIVERLIB_ H__
+C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/rom_map.h(41): warning:  #14-D: extra text after expected end of preprocessing directive
+  #ifndef __DRIVERLIB_ ROM_MAP_H__
+C:\ti\TivaWare_C_Series-2.1.4.178\utils\uartstdio.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=11024 RO-data=2076 RW-data=1644 ZI-data=3500  
+".\DC motor trial_keil.axf" - 0 Error(s), 162 Warning(s).
+</pre>
+</body>
+</html>
+ial_keil.axf: Error: L6218E: Undefined symbol ROM_GPIOPinTypeGPIOInput (referred from main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+".\DC motor trial_keil.axf" - 1 Error(s), 163 Warning(s).
+Target not created
+ uartstdio.c...
+C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/rom.h(40): warning:  #14-D: extra text after expected end of preprocessing directive
+  #ifndef __DRIVERLIB_ H__
+C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/rom_map.h(41): warning:  #14-D: extra text after expected end of preprocessing directive
+  #ifndef __DRIVERLIB_ ROM_MAP_H__
+C:\ti\TivaWare_C_Series-2.1.4.178\utils\uartstdio.c: 2 warnings, 0 errors
+".\DC motor trial_keil.axf" - 6 Error(s), 163 Warning(s).
+Target not created

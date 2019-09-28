@@ -1,0 +1,105 @@
+Dependencies for Project 'DC motor trial_keil', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5AF874ED)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\main.c)(0x5AFF626C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:/Keil/labware/inc/tm4c123gh6pm.h)(0x5AF630E9)
+I (C:/Keil/labware/inc/hw_memmap.h)(0x5AF630E9)
+I (C:/Keil/labware/inc/hw_types.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_ints.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_gpio.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_sysctl.h)(0x5AF63035)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/debug.h)(0x5AD87B34)
+I (C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h)(0x5AFC424B)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/pin_map.h)(0x5AF630E9)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/pwm.h)(0x5AC651EA)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/sysctl.h)(0x5AC65C98)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/uart.h)(0x5AC64C04)
+I (C:/ti/TivaWare_C_Series-2.1.4.178/utils/uartstdio.h)(0x5AFC42DF)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/rom.h)(0x5AF630E9)
+I (C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/pin_map.h)(0x5AFC424B)
+I (C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h)(0x5AFC424B)
+I (C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/timer.h)(0x5AFC424B)
+I (C:\ti\TivaWare_C_Series-2.1.4.178\third_party\FreeRTOS\Source\include\FreeRTOS.h)(0x5AFF5F4A)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C819B4)
+I (C:\ti\TivaWare_C_Series-2.1.4.178\third_party\FreeRTOS\Demo\CORTEX_LM3S811_KEIL\FreeRTOSConfig.h)(0x5AFC42C0)
+I (C:\ti\TivaWare_C_Series-2.1.4.178\third_party\FreeRTOS\Source\include\projdefs.h)(0x5AFC42C1)
+I (C:\ti\TivaWare_C_Series-2.1.4.178\third_party\FreeRTOS\Source\include\portable.h)(0x5AFF5FCD)
+I (C:\ti\TivaWare_C_Series-2.1.4.178\third_party\FreeRTOS\Source\include\deprecated_definitions.h)(0x5AFC42C1)
+I (C:\ti\TivaWare_C_Series-2.1.4.178\third_party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5AFC42C1)
+I (C:\ti\TivaWare_C_Series-2.1.4.178\third_party\FreeRTOS\Source\include\mpu_wrappers.h)(0x5AFC42C1)
+I (C:/Keil/labware/inc/hw_nvic.h)(0x53885258)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/fpu.h)(0x59D672DA)
+F (C:\ti\TivaWare_C_Series-2.1.2.111\inc\tm4c123gh6pm.h)(0x5AF630E9)()
+F (C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\gpio.c)(0x5AF6F778)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:/Keil/labware/inc/hw_gpio.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_ints.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_memmap.h)(0x5AF630E9)
+I (C:/Keil/labware/inc/hw_sysctl.h)(0x5AF63035)
+I (C:/Keil/labware/inc/hw_types.h)(0x53885258)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/debug.h)(0x5AD87B34)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/gpio.h)(0x5AD8681A)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/interrupt.h)(0x5AC65C31)
+F (C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\pwm.c)(0x5AC655D7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:/Keil/labware/inc/hw_ints.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_memmap.h)(0x5AF630E9)
+I (C:/Keil/labware/inc/hw_pwm.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_sysctl.h)(0x5AF63035)
+I (C:/Keil/labware/inc/hw_types.h)(0x53885258)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/debug.h)(0x5AD87B34)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/pwm.h)(0x5AC651EA)
+F (C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\sysctl.c)(0x5ACA6EAA)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\sysctl.o --omf_browse .\sysctl.crf --depend .\sysctl.d)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:/Keil/labware/inc/hw_ints.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_nvic.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_sysctl.h)(0x5AF63035)
+I (C:/Keil/labware/inc/hw_types.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_flash.h)(0x5AF630E9)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/cpu.h)(0x59D672DA)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/debug.h)(0x5AD87B34)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/interrupt.h)(0x5AC65C31)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/sysctl.h)(0x5AC65C98)
+F (C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\uart.c)(0x5AF873C4)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:/Keil/labware/inc/hw_ints.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_memmap.h)(0x5AF630E9)
+I (C:/Keil/labware/inc/hw_sysctl.h)(0x5AF63035)
+I (C:/Keil/labware/inc/hw_types.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_nvic.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_uart.h)(0x53885258)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/debug.h)(0x5AD87B34)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/interrupt.h)(0x5AC65C31)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/uart.h)(0x5AC64C04)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/fpu.h)(0x59D672DA)
+F (C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\interrupt.c)(0x5AC75C58)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\interrupt.o --omf_browse .\interrupt.crf --depend .\interrupt.d)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:/Keil/labware/inc/hw_ints.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_nvic.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_types.h)(0x53885258)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/cpu.h)(0x59D672DA)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/debug.h)(0x5AD87B34)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/interrupt.h)(0x5AC65C31)
+F (C:\ti\TivaWare_C_Series-2.1.2.111\driverlib\rvmdk\driverlib.lib)(0x59D672DA)()
+F (C:\ti\TivaWare_C_Series-2.1.4.178\utils\uartstdio.c)(0x5AFECF8E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uartstdio.o --omf_browse .\uartstdio.crf --depend .\uartstdio.d)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:/Keil/labware/inc/hw_ints.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_memmap.h)(0x5AF630E9)
+I (C:/Keil/labware/inc/hw_types.h)(0x53885258)
+I (C:/Keil/labware/inc/hw_uart.h)(0x53885258)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/debug.h)(0x5AD87B34)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/interrupt.h)(0x5AC65C31)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/rom.h)(0x5AF630E9)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/rom_map.h)(0x5AF630E9)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/sysctl.h)(0x5AC65C98)
+I (C:/ti/TivaWare_C_Series-2.1.2.111/driverlib/uart.h)(0x5AC64C04)
+I (C:/ti/TivaWare_C_Series-2.1.4.178/utils/uartstdio.h)(0x5AFC42DF)

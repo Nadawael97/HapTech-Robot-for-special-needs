@@ -1,0 +1,15 @@
+.\delaytimer.o: DelayTimer.c
+.\delaytimer.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\delaytimer.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\delaytimer.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\delaytimer.o: C:/Keil/labware/inc/hw_ints.h
+.\delaytimer.o: C:/Keil/labware/inc/hw_timer.h
+.\delaytimer.o: C:/Keil/labware/inc/hw_types.h
+.\delaytimer.o: C:/Keil/labware/inc/hw_memmap.h
+.\delaytimer.o: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/rom.h
+.\delaytimer.o: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h
+.\delaytimer.o: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/timer.h
+.\delaytimer.o: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h
+.\delaytimer.o: C:/Keil/labware/inc/hw_nvic.h
+.\delaytimer.o: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/pin_map.h
+.\delaytimer.o: C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/rom_map.h
